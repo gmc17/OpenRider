@@ -1,10 +1,10 @@
-import { BIKE_BMX, BIKE_MTB, BIKE_TB } from "./class/constant/BikeConstants.js";
-import { TOOL } from "./class/constant/ToolConstants.js";
-import { GHOST_COLORS, MIN_SIZE, TRACK_DEFAULT } from "./class/constant/TrackConstants.js";
-import { Game } from "./class/Game.js";
-import { CanvasHelper } from "./class/helper/CanvasHelper.js";
-import { GhostString } from "./class/helper/GhostString.js";
-import { Vector } from "./class/Vector.js";
+import { BIKE_BMX, BIKE_MTB, BIKE_TB } from "class/constant/BikeConstants.js";
+import { TOOL } from "class/constant/ToolConstants.js";
+import { GHOST_COLORS, MIN_SIZE, TRACK_DEFAULT } from "class/constant/TrackConstants.js";
+import { Game } from "class/Game.js";
+import { CanvasHelper } from "class/helper/CanvasHelper.js";
+import { GhostString } from "class/helper/GhostString.js";
+import { Vector } from "class/Vector.js";
 
 const COMPILED = false;
 export const DEBUG = !COMPILED;
